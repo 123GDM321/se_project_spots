@@ -20,5 +20,5 @@ Spots is deployed to GitHub pages
 
 Link: https://123gdmartin321.github.io/se_project_spots/index.html
 
-
+Video Description: https://drive.google.com/file/d/1r4g1726sJTtnJnjrZZZ4ajRwPjEvIaZ_/view?usp=sharing
 
