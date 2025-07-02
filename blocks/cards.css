@@ -1,6 +1,8 @@
 .cards {
   padding-top: 20px;
-  border-bottom: 1px rgb(33, 33, 33) solid;
+  border-bottom: 1px rgb(33, 33, 33, .4);
+
+  gap:0 0 80px 20px;
 }
 
 .cards__list{
@@ -17,15 +19,22 @@
 
 @media  screen and (max-width:627px) {
 
+.cards {
+  margin: 0 auto;
+}
+
   .cards__list {
     grid-template-columns: repeat(auto-fit, 288px);
+    gap: 20px 0 20px 0;
+  }
+  .cards__title {
+    font-size: 16px;
   }
 
-
-
-
-
-
+  .cards__like-btn{
+    width: 20px;
+    height: 18px;
+  }
 
 
 }

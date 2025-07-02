@@ -19,7 +19,11 @@
 .footer__text {
   justify-content: center;
   text-align: center;
-  font-weight: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin:0 auto;
+
+
 }
 
 

@@ -3,31 +3,30 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
 
   justify-content: space-between;
-  padding: 34 0 20px;
-  max-width: 1290px;
+  padding: 34px 0 20px;
+
   margin: 0 auto;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  background-color: rgba(252, 245, 229, 1);
+
   position: relative;
 
+  gap: 0 0 0 80px;
+
+  padding-bottom: 20px;
 }
 
-.profile_page{}
+
 
 .profile__avatar {
   margin-right: 20px;
-  margin-bottom: 20px;
+
+
+  border-radius: 8px;
 
 
 }
 
-.profile__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  position: relative;
-}
+
 
 .profile__column {
   display: flex;
@@ -37,11 +36,11 @@
 }
 
 .profile__name {
-  margin: 0;
+  margin: 12px;
   font-weight: 500 ;
   font-size: 32px;
   line-height: 1;
-
+  color: #212121;
   text-overflow: ellipsis;
   overflow:hidden;
   display: -webkit-box;
@@ -53,8 +52,12 @@
 
 .profile__description {
   margin: 0;
-  font-weight: 500 ;
-
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18.22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 70%;
   text-overflow: ellipsis;
   overflow:hidden;
   display: -webkit-box;
@@ -64,9 +67,7 @@
 
 }
 
-.button {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-}
+
 
 .profile__edit-btn {
   margin-top: auto;
@@ -81,9 +82,15 @@
   display: flex;
   gap: 8px;
   opacity: 0.7;
-  cursor: pointer;
+
 
 }
+
+.profile__edit-btn:hover{
+  cursor: pointer;
+}
+
+
 
 
 .profile__add-btn {
@@ -92,12 +99,12 @@
   margin-left: auto;
 
   background: rgba(33, 33, 33, 1);
-  color: white;
+
   padding: 8px 16px;
   border: none;
   cursor: pointer;
   font-weight: 500;
-  color:#fcf5e5;
+  
   width: 157px;
   height: 52px;
   border-radius: 8px;
@@ -106,6 +113,9 @@
   margin-bottom: 20px;
 }
 
+.profile__add-btn:hover{
+  cursor: pointer;
+}
 
 @media  screen and (max-width:627px) {
   .profile {
@@ -114,6 +124,8 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
+
+    gap: 0 0 20px 0;
   }
 
 
@@ -124,25 +136,7 @@
     margin-bottom: 12px;
   }
 
-  .profile__edit-btn {
-    margin-top: auto;
 
-
-    font-weight: 500 ;
-    font-size: 16px;
-    line-height: 16px;
-    color:#212121;
-
-    padding: 0;
-    border: none;
-    display: flex;
-    gap: 8px;
-    opacity: 0.7;
-    cursor: pointer;
-    background-color: transparent;
-
-    margin: 0 auto;
-  }
 
   .profile__add-btn {
     margin: 0 auto;
@@ -164,8 +158,7 @@
   .profile__description {
     margin-bottom: 32px;
     max-width: 288px;
-    font-size: 16px;
-    line-height: 16px;
+
 
   }
 
